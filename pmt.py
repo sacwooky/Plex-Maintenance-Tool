@@ -33,12 +33,6 @@ class PlexMaintenanceTool:
                 choices=[
                     ('Clean Up Labels', 'cleanup_labels'),
                     ('Reset Posters', 'reset_posters'),
-                    ('Verify Release Dates', 'verify_dates'),
-                    ('Find Incomplete Metadata', 'find_incomplete'),
-                    ('Verify Media Paths', 'verify_paths'),
-                    ('Check Media Integrity', 'verify_integrity'),
-                    ('Find Abnormal Runtimes', 'find_abnormal'),
-                    ('Bulk Label Operation', 'bulk_label'),
                     ('Reconfigure Settings', 'reconfigure'),
                     ('Exit', 'exit')
                 ])
