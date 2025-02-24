@@ -2,16 +2,8 @@ import asyncio
 import inquirer
 from config.config_manager import ConfigManager
 from config.setup_wizard import SetupWizard
-from operations.operations import cleanup_labels_operation, reset_posters_operation
-from operations.advanced_operations import (
-    verify_release_dates,
-    find_incomplete_metadata,
-    verify_media_paths,
-    verify_media_integrity,
-    find_abnormal_runtimes,
-    bulk_label_operation
-)
-from utils.utils import clear_screen, connect_to_plex, print_operation_header, confirm_action
+from operations.operations import cleanup_labels_operation, reset_posters_operation, delete_recent_movies_operation
+from utils.utils import clear_screen, connect_to_plex
 
 class PlexMaintenanceTool:
     def __init__(self):
